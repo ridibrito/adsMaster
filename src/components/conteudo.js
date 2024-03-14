@@ -32,7 +32,7 @@ export default function Conteudo() {
     <>
       <section className=" bg-gray-900 w-full rounded-lg">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-8 lg:text-4xl text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Conheça o conteúdo de cada curso
           </h2>
           <div className="grid pt-4 text-left  md:gap-16 dark:border-gray-700 md:grid-cols">

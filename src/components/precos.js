@@ -6,7 +6,10 @@ export default function Precos() {
       <section className="">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            <h2
+              id="preco"
+              className="mb-4 lg:text-4xl text-3xl  tracking-tight font-extrabold text-gray-900 dark:text-white"
+            >
               Confira tudo que você vai receber com Ads Master
             </h2>
             <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
@@ -16,7 +19,9 @@ export default function Precos() {
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols sm:gap-6 xl:gap-10 lg:space-y-0">
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center t  rounded-lg  shadow dark:border-gray-600 xl:p-8 bg-gray-900 text-white">
-              <h3 className="mb-4 text-2xl font-semibold">Cursos em vídeo</h3>
+              <h3 id="preco" className="mb-4 text-2xl font-semibold">
+                Cursos em vídeo
+              </h3>
 
               <div className="mb-8 space-y-4">
                 <div className="flex items-center justify-between">
