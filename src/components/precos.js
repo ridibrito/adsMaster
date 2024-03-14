@@ -15,7 +15,7 @@ export default function Precos() {
             </p>
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols sm:gap-6 xl:gap-10 lg:space-y-0">
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center t  rounded-lg  shadow dark:border-gray-600 xl:p-8 bg-gray-900 text-white">
               <h3 className="mb-4 text-2xl font-semibold">Cursos em vídeo</h3>
 
               <div className="mb-8 space-y-4">
@@ -99,6 +99,22 @@ export default function Precos() {
                       height="25"
                     />
                     <p className="ml-2">Pinterest Ads</p>
+                  </div>
+                  <div className="flex items-center">
+                    <p className="font-bold line-through text-red-600">
+                      R$ 199,00
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center">
+                    <Image
+                      src="/zap.png"
+                      alt="logo facebook"
+                      width="25"
+                      height="25"
+                    />
+                    <p className="ml-2">WhatsApp</p>
                   </div>
                   <div className="flex items-center">
                     <p className="font-bold line-through text-red-600">
@@ -312,7 +328,7 @@ export default function Precos() {
                 <p className="mr-2 text-2xl font-bold mt-4">Ou R$ 147</p>
               </div>
               <a
-                href="#"
+                href="https://pay.kiwify.com.br/HbFhJK4"
                 className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center  border border-sky-600 rounded-lg bg-[#008ffb] hover:bg-[#0275cc] focus:ring-4 focus:ring-blue-100 text-white"
               >
                 Eu quero ser um Ads Master

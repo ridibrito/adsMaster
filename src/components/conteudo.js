@@ -7,6 +7,7 @@ export default function Conteudo() {
   const [open3, setOpen3] = useState(false);
   const [open4, setOpen4] = useState(false);
   const [open5, setOpen5] = useState(false);
+  const [open6, setOpen6] = useState(false);
 
   const toggleList1 = () => {
     setOpen1(!open1);
@@ -23,10 +24,13 @@ export default function Conteudo() {
   const toggleList5 = () => {
     setOpen5(!open5);
   };
+  const toggleList6 = () => {
+    setOpen6(!open6);
+  };
 
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 w-full">
+      <section className=" bg-gray-900 w-full rounded-lg">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Conheça o conteúdo de cada curso
@@ -116,13 +120,7 @@ export default function Conteudo() {
                   <div className="flex items-center gap-2">
                     <div className="gap-2">
                       <Image
-                        src="/facebook.png"
-                        alt="logo facebook"
-                        width="25"
-                        height="25"
-                      />
-                      <Image
-                        src="/instagram.png"
+                        src="/faceInsta.png"
                         alt="logo facebook"
                         width="25"
                         height="25"
@@ -422,6 +420,85 @@ export default function Conteudo() {
                   <li>• RCriativos que convertem</li>
                   <li>• Precificação de serviço</li>
                   <li>• Profissão gestor Pinterest</li>
+                </ul>
+              </div>
+              <div className="mt-10 ">
+                <h3
+                  onClick={toggleList6}
+                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium text-gray-900 dark:text-white border-b border-gray-700 cursor-pointer"
+                >
+                  <div className="flex items-center">
+                    <Image
+                      src="/zap.png"
+                      alt="logo facebook"
+                      width="25"
+                      height="25"
+                    />
+                    <p className="ml-2">WhatsApp para vendas</p>
+                  </div>
+                  <div className="flex gap-5">
+                    <p className="font-bold line-through text-red-600">
+                      R$ 199,00
+                    </p>
+
+                    {open4 ? (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        transform="rotate(90)"
+                      >
+                        <g id="_01_align_center" data-name="01 align center">
+                          <path
+                            d="M9.707,19.293v-14L16,11.586A1,1,0,0,1,16,13Z"
+                            fill="#fff"
+                          />
+                        </g>
+                      </svg>
+                    ) : (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                      >
+                        <g id="_01_align_center" data-name="01 align center">
+                          <path
+                            d="M9.707,19.293v-14L16,11.586A1,1,0,0,1,16,13Z"
+                            fill="#fff"
+                          />
+                        </g>
+                      </svg>
+                    )}
+                  </div>
+                </h3>
+
+                <ul
+                  style={{ display: open6 ? "block" : "none" }}
+                  className=" text-gray-500 dark:text-gray-400"
+                >
+                  <p className="font-bold mb-3">
+                    Um curso completo do zero ao avançado com{" "}
+                    <span className="underline decoration-double ">
+                      mais de 2 horas
+                    </span>{" "}
+                    de vídeo aulas
+                  </p>
+                  <li>• WhatsApp Business</li>
+                  <li>• Quebra de Objeções</li>
+                  <li>• Aúdios</li>
+                  <li>• Oferta </li>
+                  <li>• Catálogo de produtos</li>
+                  <li>• Qualificação</li>
+                  <li>• Guia de negócios</li>
+                  <li>• Etiquetas</li>
+                  <li>• Respostas rápidas</li>
+                  <li>• Apresentação técnica</li>
+                  <li>• Saudação</li>
+                  <li>• Fúnil de vendas</li>
+                  <li>• Provas sociais</li>
+                  <li>• E muito mais...</li>
                 </ul>
               </div>
             </div>
