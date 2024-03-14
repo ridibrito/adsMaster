@@ -8,7 +8,7 @@ export default function Heroi() {
           <Image src="/bg0.png" alt="bgSmall" width="500" height="500" />
         </div>
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-          <div className="mr-auto place-self-center -mt-32 lg:col-span-7">
+          <div className="mr-auto place-self-center -mt-32 lg:mt-0 lg:col-span-7">
             <h1 className="max-w-2xl mb-4 lg:text-4xl font-extrabold tracking-tight text-center lg:text-left leading-none text-3xl md:text-5xl xl:text-6xl text-white">
               Domine as principais Plataformas de anúncios e acabe com os
               bloqueios
