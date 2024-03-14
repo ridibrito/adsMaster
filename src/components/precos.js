@@ -39,17 +39,12 @@ export default function Precos() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <Image
-                      src="/facebook.png"
+                      src="/faceInsta.png"
                       alt="logo facebook"
                       width="25"
                       height="25"
                     />
-                    <Image
-                      src="/instagram.png"
-                      alt="logo facebook"
-                      width="25"
-                      height="25"
-                    />
+
                     <p className="ml-2">Facebook e Instagram Ads</p>
                   </div>
                   <div className="flex items-center">
@@ -61,7 +56,7 @@ export default function Precos() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <Image
-                      src="/tik tok.png"
+                      src="/tiktok.png"
                       alt="logo facebook"
                       width="25"
                       height="25"

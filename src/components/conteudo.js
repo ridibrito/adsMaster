@@ -203,7 +203,7 @@ export default function Conteudo() {
                 >
                   <div className="flex items-center">
                     <Image
-                      src="/Tik Tok.png"
+                      src="/tiktok.png"
                       alt="logo facebook"
                       width="25"
                       height="25"

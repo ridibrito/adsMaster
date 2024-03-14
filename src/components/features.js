@@ -32,15 +32,9 @@ export default function Features() {
               </p>
             </div>
             <div>
-              <div class="flex justify-center gap-3 ml-5 items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <div class="flex justify-center gap-3  items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <Image
-                  src="/facebook.png"
-                  alt="logo facebook"
-                  width="100"
-                  height="100"
-                />
-                <Image
-                  src="/instagram.png"
+                  src="/faceInsta.png"
                   alt="logo facebook"
                   width="100"
                   height="100"
@@ -58,7 +52,7 @@ export default function Features() {
             <div>
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <Image
-                  src="/tik tok.png"
+                  src="/tiktok.png"
                   alt="logo facebook"
                   width="100"
                   height="100"
@@ -102,6 +96,22 @@ export default function Features() {
               <p class="text-gray-500 dark:text-gray-400">
                 Aprenda a estratégia para gerar milhões de visualizações para
                 seu blog transformando em uma maquina de monetização
+              </p>
+            </div>
+            <div>
+              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <Image
+                  src="/zap.png"
+                  alt="logo facebook"
+                  width="100"
+                  height="100"
+                />
+              </div>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">
+                WhatsApp para vendas
+              </h3>
+              <p class="text-gray-500 dark:text-gray-400">
+                Aprenda como aumentar a conversão de suas vendas no whatsApp.
               </p>
             </div>
           </div>
