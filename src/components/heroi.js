@@ -11,9 +11,12 @@ export default function Heroi() {
           <div className="mr-auto place-self-center -mt-32 lg:mt-0 lg:col-span-7">
             <h1 className="max-w-2xl mb-4 lg:text-4xl font-extrabold tracking-tight text-center lg:text-left leading-none text-3xl md:text-5xl xl:text-6xl text-white">
               Domine as principais Plataformas de anúncios e acabe com os
-              bloqueios
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-900">
+                {" "}
+                bloqueios
+              </span>
             </h1>
-            <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-white">
+            <p className="max-w-2xl mb-6  lg:mb-8 md:text-lg lg:text-xl bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-blue-500 font-bold lg:w-2/3">
               O Ads Master vai transformar você em um mestre das principais
               plataformas de anúncios online.
             </p>

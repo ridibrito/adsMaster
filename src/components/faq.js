@@ -22,7 +22,7 @@ export default function Faq() {
           <h2 className="mb-8 lg:text-4xl text-3xl  tracking-tight font-extrabold text-gray-400 ">
             Perguntas frequentes
           </h2>
-          <div className="grid pt-8 text-left border-t border-b md:gap-16 border-gray-700 md:grid-cols-2">
+          <div className="grid pt-8 text-left border-t  md:gap-16 border-gray-700 md:grid-cols-2">
             <div>
               <div
                 onClick={toggleList1}
@@ -88,7 +88,10 @@ export default function Faq() {
                   </ul>
                 </div>
               </div>
-              <div onClick={toggleList3} className="mb-10 cursor-pointer ">
+              <div
+                onClick={toggleList3}
+                className="mb-10 cursor-pointer border-b border-gray-700 "
+              >
                 <h3 className="flex items-center mb-4 text-lg font-medium text-gray-400 ">
                   <svg
                     className="flex-shrink-0 mr-2 w-5 h-5 text-gray-400"
@@ -105,7 +108,7 @@ export default function Faq() {
                   Reembolso e garantia
                 </h3>
                 <div style={{ display: open3 ? "block" : "none" }}>
-                  <p className="text-gray-500 text-gray-400">
+                  <p className=" text-gray-400">
                     O reembolso integral da sua compra pode ser solicitado
                     dentro dos 7 dias de garantia sem problema algum. Basta
                     contatar a nossa equipe de suporte e você vai conseguir toda

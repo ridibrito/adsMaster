@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Dores() {
   return (
     <>
-      <section class="pt-12 bg-gradient-to-t from-gray-900">
+      <section class="lg:pt-12 rounded-lg bg-gradient-to-t from-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="max-w-screen-md mb-8 lg:mb-16">
             <h2 class="mb-4 lg:text-4xl text-3xl  tracking-tight font-extrabold text-gray-900 dark:text-white">
@@ -18,7 +18,7 @@ export default function Dores() {
           <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             <div>
               <h3 class="mb-2 text-xl font-bold dark:text-white">
-                Plataformas
+                🌐 Plataformas
               </h3>
               <p class="text-gray-500 dark:text-gray-400">
                 Compreender as nuances de cada plataforma, incluindo seus
@@ -28,7 +28,9 @@ export default function Dores() {
               </p>
             </div>
             <div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Criativos</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">
+                ✨ Criativos
+              </h3>
               <p class="text-gray-500 dark:text-gray-400">
                 O aspecto visual e textual dos anúncios, pode mudar o jogo dos
                 anúncios, criativos atraentes e persuasivos são essenciais para
@@ -40,7 +42,7 @@ export default function Dores() {
 
             <div>
               <h3 class="mb-2 text-xl font-bold dark:text-white">
-                Contingência
+                🔒 Contingência
               </h3>
               <p class="text-gray-500 dark:text-gray-400">
                 Capacidade de adaptação e otimização contínua das campanhas de
