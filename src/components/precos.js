@@ -229,7 +229,7 @@ export default function Precos() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <Image
-                      src="/bonus.png"
+                      src="/canvaBook.png"
                       alt="logo google ads"
                       width="25"
                       height="25"
@@ -248,7 +248,7 @@ export default function Precos() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <Image
-                      src="/bonus.png"
+                      src="/antiblock.png"
                       alt="logo facebook"
                       width="25"
                       height="25"
@@ -268,7 +268,7 @@ export default function Precos() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <Image
-                      src="/bonus.png"
+                      src="/check.png"
                       alt="logo facebook"
                       width="25"
                       height="25"
@@ -286,7 +286,7 @@ export default function Precos() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <Image
-                      src="/bonus.png"
+                      src="/autonomo.png"
                       alt="logo facebook"
                       width="25"
                       height="25"
