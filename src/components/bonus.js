@@ -29,7 +29,7 @@ export default function Bonus() {
               </h2>
             </div>
             <p>
-              A forma mais segura para não sofrer com "Bloqueios de conta" e
+              A forma mais segura para não sofrer com Bloqueios de conta e
               escalar sua operação.
             </p>
             <p className="mt-2">
