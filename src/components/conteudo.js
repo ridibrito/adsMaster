@@ -32,15 +32,15 @@ export default function Conteudo() {
     <>
       <section className=" bg-gray-900 w-full rounded-lg">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <h2 className="mb-8 lg:text-4xl text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-8 lg:text-4xl text-3xl tracking-tight font-extrabold  text-white">
             Conheça o conteúdo de cada curso
           </h2>
-          <div className="grid pt-4 text-left  md:gap-16 dark:border-gray-700 md:grid-cols">
+          <div className="grid pt-4 text-left  md:gap-16 border-gray-700 md:grid-cols">
             <div>
               <div className="mb-10 ">
                 <h3
                   onClick={toggleList1}
-                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium text-gray-900 dark:text-white border-b border-gray-700 cursor-pointer"
+                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium  text-white border-b border-gray-700 cursor-pointer"
                 >
                   <div className="flex items-center">
                     <Image
@@ -91,7 +91,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open1 ? "block" : "none" }}
-                  className=" text-gray-500 dark:text-gray-400"
+                  className=" text-gray-500 text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}
@@ -115,7 +115,7 @@ export default function Conteudo() {
               <div className="mb-10 ">
                 <h3
                   onClick={toggleList2}
-                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium text-gray-900 dark:text-white border-b border-gray-700 cursor-pointer"
+                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium  text-white border-b border-gray-700 cursor-pointer"
                 >
                   <div className="flex items-center gap-2">
                     <div className="gap-2">
@@ -168,7 +168,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open2 ? "block" : "none" }}
-                  className=" text-gray-500 dark:text-gray-400"
+                  className=" text-gray-500 text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}
@@ -199,7 +199,7 @@ export default function Conteudo() {
               <div className="mb-10 ">
                 <h3
                   onClick={toggleList3}
-                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium text-gray-900 dark:text-white border-b border-gray-700 cursor-pointer"
+                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium  text-white border-b border-gray-700 cursor-pointer"
                 >
                   <div className="flex items-center">
                     <Image
@@ -250,7 +250,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open3 ? "block" : "none" }}
-                  className=" text-gray-500 dark:text-gray-400"
+                  className=" text-gray-500 text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}
@@ -275,7 +275,7 @@ export default function Conteudo() {
               <div className="mb-10 ">
                 <h3
                   onClick={toggleList4}
-                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium text-gray-900 dark:text-white border-b border-gray-700 cursor-pointer"
+                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium  text-white border-b border-gray-700 cursor-pointer"
                 >
                   <div className="flex items-center">
                     <Image
@@ -326,7 +326,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open4 ? "block" : "none" }}
-                  className=" text-gray-500 dark:text-gray-400"
+                  className=" text-gray-500 text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}
@@ -346,7 +346,7 @@ export default function Conteudo() {
               <div className="">
                 <h3
                   onClick={toggleList5}
-                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium text-gray-900 dark:text-white border-b border-gray-700 cursor-pointer"
+                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium  text-white border-b border-gray-700 cursor-pointer"
                 >
                   <div className="flex items-center">
                     <Image
@@ -397,7 +397,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open5 ? "block" : "none" }}
-                  className=" text-gray-500 dark:text-gray-400"
+                  className=" text-gray-500 text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}
@@ -425,7 +425,7 @@ export default function Conteudo() {
               <div className="mt-10 ">
                 <h3
                   onClick={toggleList6}
-                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium text-gray-900 dark:text-white border-b border-gray-700 cursor-pointer"
+                  className="flex items-center justify-between pb-3 mb-2 text-lg font-medium  text-white border-b border-gray-700 cursor-pointer"
                 >
                   <div className="flex items-center">
                     <Image
@@ -476,7 +476,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open6 ? "block" : "none" }}
-                  className=" text-gray-500 dark:text-gray-400"
+                  className=" text-gray-500 text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}

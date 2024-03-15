@@ -16,7 +16,7 @@ export default function Garantia() {
           <div>
             <h2
               id="preco"
-              className="mb-4 lg:text-4xl text-3xl  tracking-tight font-extrabold text-gray-900 dark:text-white"
+              className="mb-4 lg:text-4xl text-3xl  tracking-tight font-extrabold  text-white"
             >
               7 dias de garantia
             </h2>

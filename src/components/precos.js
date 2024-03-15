@@ -8,17 +8,17 @@ export default function Precos() {
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
             <h2
               id="preco"
-              className="mb-4 lg:text-4xl text-3xl  tracking-tight font-extrabold text-gray-900 dark:text-white"
+              className="mb-4 lg:text-4xl text-3xl  tracking-tight font-extrabold  text-white"
             >
               Confira tudo que você vai receber com Ads Master
             </h2>
-            <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+            <p className="mb-5 font-light  sm:text-xl text-gray-400">
               Atenção: Todos os cursos e bônus fazem parte desse super combo Ads
               Master, sem pegadinha!
             </p>
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols sm:gap-6 xl:gap-10 lg:space-y-0">
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center t  rounded-lg  shadow dark:border-gray-600 xl:p-8 bg-gray-900 text-white">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center t  rounded-lg  shadow border-gray-600 xl:p-8 bg-gray-900 text-white">
               <h3 id="preco" className="mb-4 text-2xl font-semibold">
                 Cursos em vídeo
               </h3>
@@ -130,7 +130,7 @@ export default function Precos() {
               <ul role="list" className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@ export default function Precos() {
                 </li>
                 <li className="flex items-center space-x-3">
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +168,7 @@ export default function Precos() {
                 </li>
                 <li className="flex items-center space-x-3">
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +186,7 @@ export default function Precos() {
                 </li>
                 <li className="flex items-center space-x-3">
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -204,7 +204,7 @@ export default function Precos() {
                 </li>
                 <li className="flex items-center space-x-3">
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"

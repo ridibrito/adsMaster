@@ -4,7 +4,7 @@ export default function Bonus() {
   return (
     <>
       <div className="">
-        <h2 className="mt-24 mb-8 lg:text-4xl text-center text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <h2 className="mt-24 mb-8 lg:text-4xl text-center text-3xl tracking-tight font-extrabold text-gray-900 text-white">
           Veja os bônus exclusivos que você vai receber.
         </h2>
         <div className="lg:flex items-center lg:w-1/2 mx-auto">

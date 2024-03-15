@@ -17,7 +17,7 @@ export default function PrecoRedusido() {
             <hr />
           </div>
           <div className=" lg:min-h-[270px] max-w-lg p-6">
-            <h2 className="mb-4 mt-6 lg:text-lg text-lg  tracking-tight font-normal text-gray-900 dark:text-white ">
+            <h2 className="mb-4 mt-6 lg:text-lg text-lg  tracking-tight font-normal  text-white ">
               VALOR TOTAL: R$ 0000,000
             </h2>
             <div className="border rounded-xl p-2 py-3 lg:p-6 mx-au">
@@ -28,7 +28,7 @@ export default function PrecoRedusido() {
                 </span>
               </p>
             </div>
-            <h2 className="mb-4 mt-6 lg:text-lg text-lg  tracking-tight font-normal text-gray-900 dark:text-white ">
+            <h2 className="mb-4 mt-6 lg:text-lg text-lg  tracking-tight font-normal  text-white ">
               OU R$ 147,00 Á VISTA
             </h2>
           </div>
