@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Garantia() {
   return (
     <>
-      <div className="p-6">
+      <div className="lg:min-w-[500px] lg:min-h-[270px] p-6">
         <div className="flex flex-col mt-12 p-6 mx-auto max-w-lg text-center t  rounded-lg  shadow border-gray-600 xl:p-8 bg-gray-900 text-white">
           <div className="flex items-center justify-center ">
             <Image

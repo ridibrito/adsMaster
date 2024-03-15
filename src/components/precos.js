@@ -305,7 +305,7 @@ export default function Precos() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <Image
-                      src="/bonus.png"
+                      src="/proBook.png"
                       alt="logo facebook"
                       width="25"
                       height="25"

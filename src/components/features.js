@@ -16,7 +16,7 @@ export default function Features() {
             </p>
           </div>
           <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-            <div>
+            <div className=" rounded-lg p-6 bg-gradient-to-r from-gray-900">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <Image
                   src="/google2.png"
@@ -31,7 +31,7 @@ export default function Features() {
                 anúncio lucrativo na primeira página de busca
               </p>
             </div>
-            <div>
+            <div className=" rounded-lg p-6 bg-gradient-to-r from-gray-900">
               <div class="flex justify-center gap-3  items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <Image
                   src="/faceInsta.png"
@@ -49,7 +49,7 @@ export default function Features() {
               </p>
             </div>
 
-            <div>
+            <div className=" rounded-lg p-6 bg-gradient-to-r from-gray-900">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <Image
                   src="/tiktok.png"
@@ -64,7 +64,7 @@ export default function Features() {
                 com essa plataforma que se tornou destaque na web.
               </p>
             </div>
-            <div>
+            <div className=" rounded-lg p-6 bg-gradient-to-r from-gray-900">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <Image
                   src="/taboola.png"
@@ -81,7 +81,7 @@ export default function Features() {
                 Native Ads.
               </p>
             </div>
-            <div>
+            <div className=" rounded-lg p-6 bg-gradient-to-r from-gray-900">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <Image
                   src="/pinterest.png"
@@ -98,7 +98,7 @@ export default function Features() {
                 seu blog transformando em uma maquina de monetização
               </p>
             </div>
-            <div>
+            <div className=" rounded-lg p-6 bg-gradient-to-r from-gray-900">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <Image
                   src="/zap.png"

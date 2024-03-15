@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Dores() {
   return (
     <>
-      <section class="pt-12">
+      <section class="pt-12 bg-gradient-to-t from-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="max-w-screen-md mb-8 lg:mb-16">
             <h2 class="mb-4 lg:text-4xl text-3xl  tracking-tight font-extrabold text-gray-900 dark:text-white">

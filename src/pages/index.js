@@ -20,7 +20,7 @@ export default function Home() {
       <Dores />
       <Features />
       <Conteudo />
-      <div className="lg:flex lg:mx-auto justify-center gap-3 bg-gradient-to-r from-black to-gray-900 w-full pb-12">
+      <div className="lg:flex lg:mx-auto justify-center gap-3 bg-[url('/bg10.png')] w-full pb-12 mt-12">
         <PrecoRedusido />
         <Garantia />
       </div>

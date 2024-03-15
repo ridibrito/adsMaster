@@ -4,7 +4,7 @@ export default function PrecoRedusido() {
   return (
     <>
       <div className="p-6">
-        <div className="flex flex-col mt-12 lg:p-12 p-6 mx-auto max-w-lg text-center t  rounded-lg  shadow border-gray-600 xl:p-8 bg-gray-900 text-white">
+        <div className="flex flex-col mt-12 p-6 lg:p-12  mx-auto max-w-lg text-center t  rounded-lg  shadow border-gray-600 xl:p-8 bg-gray-900 text-white">
           <div className="flex items-center justify-center mb-6 ">
             <Image
               src="/logo_png.png"
@@ -16,12 +16,12 @@ export default function PrecoRedusido() {
           <div className="px-12">
             <hr />
           </div>
-          <div className="lg:min-w-96">
+          <div className=" lg:min-h-[270px] max-w-lg p-6">
             <h2 className="mb-4 mt-6 lg:text-lg text-lg  tracking-tight font-normal text-gray-900 dark:text-white ">
               VALOR TOTAL: R$ 0000,000
             </h2>
-            <div className="border rounded-xl p-6 ">
-              <p className="flex items-center mx-auto justify-center">
+            <div className="border rounded-xl p-2 py-3 lg:p-6 mx-au">
+              <p className="flex items-center  justify-center">
                 HOJE: 12X DE{" "}
                 <span className="lg:text-4xl text-2xl ml-4 font-bold">
                   R$ 14,76
