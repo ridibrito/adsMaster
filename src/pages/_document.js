@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 import Footer from "@/components/footer";
 export default function Document() {
   return (
-    <Html lang="pt-br">
+    <Html lang="pt-br" className="!scroll-smooth">
       <Head>
         <title>Ads Master</title>
         <meta

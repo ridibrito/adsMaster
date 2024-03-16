@@ -17,11 +17,15 @@ export default function PrecoRedusido() {
             <hr />
           </div>
           <div className=" lg:min-h-[270px] max-w-lg p-6">
-            <h2 className="mb-4 mt-6 lg:text-lg text-lg  tracking-tight font-normal  text-white ">
-              VALOR TOTAL: R$ 0000,000
+            <h2 className="mb-4 mt-6 lg:text-lg text-lg  tracking-tight font-normal  text-white text-center">
+              Todos os produtos daria mais de <br />{" "}
+              <span className="font-extrabold text-3xl line-through">
+                {" "}
+                R$ 2.064,00
+              </span>
             </h2>
-            <div className="border rounded-xl p-2 py-3 lg:p-6 mx-au">
-              <p className="flex items-center  justify-center">
+            <div className="border rounded-xl w-full px-2 py-3 lg:p-6 mx-auto">
+              <p className="flex items-center text-xs justify-center">
                 HOJE: 12X DE{" "}
                 <span className="lg:text-4xl text-2xl ml-4 font-bold">
                   R$ 14,76
@@ -38,7 +42,7 @@ export default function PrecoRedusido() {
           <div className="mt-6">
             <a
               href="https://pay.kiwify.com.br/HbFhJK4"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center  border border-green-600 rounded-lg bg-[#008a37] hover:bg-[#008a37c5] focus:ring-4 focus:ring-blue-100 text-white"
+              className="inline-flex w-full lg:w-80 items-center justify-center px-12 py-3 text-base font-medium text-center  border border-sky-600 rounded-lg bg-[#008ffb] hover:bg-[#0275cc] focus:ring-4 focus:ring-blue-100 text-white"
             >
               EU QUERO SER UM ADS MASTER
             </a>

@@ -502,7 +502,7 @@ export default function Conteudo() {
                 </ul>
               </div>
             </div>
-            <h2 className="mb-8 lg:text-2xl text-2xl tracking-tight font-extrabold text-white mx-auto">
+            <h2 className="mb-8 mt-8 lg:mt-0 lg:mb-0 text-center lg:text-2xl text-2xl tracking-tight font-extrabold text-white mx-auto">
               Um verdairo Ecossitema ,
               <span className="mb-8 lg:text-2xl text-2xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-blue-500 mx-auto">
                 {" "}

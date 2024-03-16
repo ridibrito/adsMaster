@@ -1,34 +1,32 @@
 import Image from "next/image";
+import Ebooks from "./ebooks";
 
 export default function Bonus() {
   return (
     <>
       <div className="">
-        <h2 className="mt-24 mb-8 lg:text-4xl text-center text-3xl tracking-tight font-extrabold text-gray-900 text-white">
+        <h2 className="mt-24 mb-8 lg:text-4xl text-center text-3xl tracking-tight font-extrabold  text-white">
           Veja os bônus exclusivos que você vai receber.
         </h2>
-        <div className="lg:flex items-center lg:w-1/2 mx-auto">
-          <Image
-            src="/cont.png"
-            alt="capa ebook"
-            width="300"
-            height="300"
-            className="mx-auto"
-          />
-          <div className="px-4">
+        <div className="lg:flex items-center max-w-4xl mx-auto">
+          <Image src="/cont.png" alt="capa ebook" width="400" height="400" />
+          <div className="justify-center p-6">
             <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-900 font-extrabold text-2xl">
               Bônus 1 :{" "}
               <span className="text-white font-normal">
                 Contingência Black Pro
               </span>
             </h2>
+            <div className="border border-gray-700 rounded-xl px-8 py-4 w-80 mt-2 mb-2">
+              <h2 className="text-center"> ▶️ Curso em vídeo</h2>
+            </div>
             <div className="border border-gray-700 rounded-xl px-8 py-4 w-80 mt-2 mb-2 bg-gray-800">
               <h2 className="flex items-center justify-center text-xl mx-auto">
                 💰 Valor total:
                 <span className="text-red-600 line-through"> R$ 97,00</span>
               </h2>
             </div>
-            <p>
+            <p className="">
               A forma mais segura para não sofrer com Bloqueios de conta e
               escalar sua operação.
             </p>
@@ -39,12 +37,12 @@ export default function Bonus() {
             </p>
           </div>
         </div>
-        <div className="lg:flex items-center lg:w-1/2 mx-auto">
+        <div className="lg:flex items-center max-w-4xl mx-auto">
           <Image
             src="/canvaPro.png"
             alt="capa ebook"
-            width="300"
-            height="300"
+            width="400"
+            height="400"
             className="mx-auto"
           />
           <div className="px-4">
@@ -52,10 +50,13 @@ export default function Bonus() {
               Bônus 2 :{" "}
               <span className="text-white font-normal">Canva Turbo Pro</span>
             </h2>
+            <div className="border border-gray-700 rounded-xl px-8 py-4 w-80 mt-2 mb-2">
+              <h2 className="text-center"> ▶️ Curso em vídeo</h2>
+            </div>
             <div className="border border-gray-700 rounded-xl px-8 py-4 w-80 mt-2 mb-2 bg-gray-800">
               <h2 className="flex items-center justify-center text-xl mx-auto">
                 💰 Valor total:
-                <span className="text-red-600 line-through"> R$ 97,00</span>
+                <span className="text-red-600 line-through"> R$ 197,00</span>
               </h2>
             </div>
             <p>
@@ -69,18 +70,21 @@ export default function Bonus() {
             </p>
           </div>
         </div>
-        <div className="lg:flex items-center lg:w-1/2 mx-auto">
+        <div className="lg:flex items-center max-w-4xl mx-auto">
           <Image
             src="/pageUp.png"
             alt="capa ebook"
-            width="300"
-            height="300"
+            width="400"
+            height="400"
             className="mx-auto"
           />
           <div className="px-4">
             <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-900 font-extrabold text-2xl">
               Bônus 3 : <span className="text-white font-normal">Page Up</span>
             </h2>
+            <div className="border border-gray-700 rounded-xl px-8 py-4 w-80 mt-2 mb-2">
+              <h2 className="text-center"> ▶️ Curso em vídeo </h2>
+            </div>
             <div className="border border-gray-700 rounded-xl px-8 py-4 w-80 mt-2 mb-2 bg-gray-800">
               <h2 className="flex items-center justify-center text-xl mx-auto">
                 💰 Valor total:
@@ -99,12 +103,12 @@ export default function Bonus() {
             </p>
           </div>
         </div>
-        <div className="lg:flex items-center lg:w-1/2 mx-auto">
+        <div className="lg:flex items-center max-w-4xl mx-auto">
           <Image
             src="/power.png"
             alt="capa ebook"
-            width="300"
-            height="300"
+            width="400"
+            height="400"
             className="mx-auto"
           />
           <div className="px-4">
@@ -112,6 +116,9 @@ export default function Bonus() {
               Bônus 4 :{" "}
               <span className="text-white font-normal">Power Box</span>
             </h2>
+            <div className="border border-gray-700 rounded-xl px-8 py-4 w-80 mt-2 mb-2">
+              <h2 className="text-center"> ▶️ Curso em vídeo</h2>
+            </div>
             <div className="border border-gray-700 rounded-xl px-8 py-4 w-80 mt-2 mb-2 bg-gray-800">
               <h2 className="flex items-center justify-center text-xl mx-auto">
                 💰 Valor total:
@@ -129,12 +136,12 @@ export default function Bonus() {
             </p>
           </div>
         </div>
-        <div className="lg:flex items-center lg:w-1/2 mx-auto">
+        <div className="lg:flex items-center max-w-4xl mx-auto">
           <Image
             src="/plr.png"
             alt="capa ebook"
-            width="300"
-            height="300"
+            width="400"
+            height="400"
             className="mx-auto"
           />
           <div className="px-4">
@@ -142,6 +149,9 @@ export default function Bonus() {
               Bônus 5 :{" "}
               <span className="text-white font-normal">Lucrando com PLR</span>
             </h2>
+            <div className="border border-gray-700 rounded-xl px-8 py-4 w-80 mt-2 mb-2">
+              <h2 className="text-center"> ▶️ Curso em vídeo</h2>
+            </div>
             <div className="border border-gray-700 rounded-xl px-8 py-4 w-80 mt-2 mb-2 bg-gray-800">
               <h2 className="flex items-center justify-center text-xl mx-auto">
                 💰 Valor total:
@@ -155,6 +165,10 @@ export default function Bonus() {
             </p>
           </div>
         </div>
+        <div className="p-24">
+          <hr />
+        </div>
+        <Ebooks />
       </div>
     </>
   );
