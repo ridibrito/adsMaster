@@ -1,4 +1,5 @@
 import Image from "next/image";
+import BtnComprar from "./btnComprar";
 
 export default function Precos() {
   return (
@@ -325,16 +326,13 @@ export default function Precos() {
 
               <div className="block justify-center items-baseline my-8">
                 <p className="rounded-lg bg-gray-800 px-2 py-3 text-5xl font-extrabold">
-                  12x de R$ 14,76
+                  12x de R$ 9,74
                 </p>
-                <p className=" text-2xl font-bold mt-4">Ou R$ 147,00 à vista</p>
+                <p className=" text-2xl font-bold mt-4">Ou R$ 97,00 à vista</p>
               </div>
-              <a
-                href="https://pay.kiwify.com.br/HbFhJK4"
-                className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center  border border-sky-600 rounded-lg bg-[#008ffb] hover:bg-[#0275cc] focus:ring-4 focus:ring-blue-100 text-white"
-              >
-                EU QUERO SER UM ADS MASTER
-              </a>
+              <div>
+                <BtnComprar className="mx-auto" />
+              </div>
             </div>
           </div>
         </div>

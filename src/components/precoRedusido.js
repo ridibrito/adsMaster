@@ -1,4 +1,5 @@
 import Image from "next/image";
+import BtnComprar from "./btnComprar";
 
 export default function PrecoRedusido() {
   return (
@@ -28,24 +29,19 @@ export default function PrecoRedusido() {
               <p className="flex items-center text-xs justify-center">
                 HOJE: 12X DE{" "}
                 <span className="lg:text-4xl text-2xl ml-4 font-bold">
-                  R$ 14,76
+                  R$ 9,74
                 </span>
               </p>
             </div>
             <h2 className="mb-4 mt-6 lg:text-lg text-lg  tracking-tight font-normal  text-white ">
-              OU R$ 147,00 Á VISTA
+              OU R$ 97,00 Á VISTA
             </h2>
           </div>
           <div className="px-12">
             <hr />
           </div>
           <div className="mt-6">
-            <a
-              href="https://pay.kiwify.com.br/HbFhJK4"
-              className="inline-flex w-full lg:w-80 items-center justify-center px-12 py-3 text-base font-medium text-center  border border-sky-600 rounded-lg bg-[#008ffb] hover:bg-[#0275cc] focus:ring-4 focus:ring-blue-100 text-white"
-            >
-              EU QUERO SER UM ADS MASTER
-            </a>
+            <BtnComprar />
           </div>
           <div className="mx-auto mt-6">
             <Image

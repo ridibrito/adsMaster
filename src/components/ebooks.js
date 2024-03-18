@@ -18,7 +18,7 @@ export default function Ebooks() {
             <div className="flex flex-col items-center justify-center text-center">
               <div className="mx-auto">
                 <Image
-                  src="/canvaBook.png"
+                  src="/boxCanva2.png"
                   alt="pack canva"
                   width={100}
                   height={100}
@@ -36,7 +36,7 @@ export default function Ebooks() {
             <div className="flex flex-col items-center justify-center text-center">
               <div>
                 <Image
-                  src="/antiblock.png"
+                  src="/boxAnti.png"
                   alt="pack canva"
                   width={100}
                   height={100}
