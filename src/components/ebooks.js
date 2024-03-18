@@ -37,7 +37,7 @@ export default function Ebooks() {
               <div>
                 <Image
                   src="/boxAnti.png"
-                  alt="pack canva"
+                  alt="pack criativos antiblock"
                   width={100}
                   height={100}
                 />
@@ -55,7 +55,7 @@ export default function Ebooks() {
             <div className="flex flex-col items-center justify-center text-center">
               <Image
                 src="/check.png"
-                alt="pack canva"
+                alt="checklist milionario"
                 width={100}
                 height={100}
               />
@@ -73,7 +73,7 @@ export default function Ebooks() {
             <div className="flex flex-col items-center justify-center text-center">
               <Image
                 src="/autonomo.png"
-                alt="pack canva"
+                alt="autonomo digital"
                 width={100}
                 height={100}
               />
@@ -88,8 +88,8 @@ export default function Ebooks() {
             </div>
             <div className="flex flex-col items-center justify-center text-center">
               <Image
-                src="/probook.png"
-                alt="pack canva"
+                src="/proBook.png"
+                alt="Ebook procrastinação"
                 width={100}
                 height={100}
               />
