@@ -32,6 +32,7 @@ export default function Ebooks() {
                 mais de 50 nichos disponíveis, milhares de artes prontas e
                 editáveis direto no Canva.
               </p>
+              <p className="text-red-500 line-through">R$ 97,00</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
               <div>
@@ -50,6 +51,7 @@ export default function Ebooks() {
                 bloqueios. Mais de 500 imagens desenvolvido para que você tenha
                 o máximo de desemprenho sem barreiras!
               </p>
+              <p className="text-red-500 line-through">R$ 47,00</p>
             </div>
 
             <div className="flex flex-col items-center justify-center text-center">
@@ -67,9 +69,10 @@ export default function Ebooks() {
                 sucesso. Aprenda a lucrar todos os dias com o mercado de PLR!
                 Descubra o segredo dos grandes players do mercado digital...
               </p>
+              <p className="text-red-500 line-through">R$ 47,00</p>
             </div>
           </div>
-          <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+          <div class="space-y-8 mt-12 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             <div className="flex flex-col items-center justify-center text-center">
               <Image
                 src="/autonomo.png"
@@ -85,6 +88,7 @@ export default function Ebooks() {
                 casa como um Autônomo Digital. Um compilado das várias fontes de
                 renda com dicas e aplicações das soluções.
               </p>
+              <p className="text-red-500 line-through">R$ 47,00</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
               <Image
@@ -102,6 +106,7 @@ export default function Ebooks() {
                 despercebidos ou sentindo-se frustrado pela falta de progresso
                 em seus objetivos, saiba que não está sozinho.
               </p>
+              <p className="text-red-500 line-through">R$ 47,00</p>
             </div>
           </div>
         </div>
