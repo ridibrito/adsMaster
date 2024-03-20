@@ -76,7 +76,7 @@ export default function FeaturesCanva() {
                 />
               </div>
               <h3 class="mb-2 text-xl font-bold text-white">
-                Stories Aniumados prontos para editar e sair usando
+                Stories Animados prontos para editar e sair usando
               </h3>
             </div>
             <div className=" rounded-lg p-6 bg-gradient-to-r from-gray-900">

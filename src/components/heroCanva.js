@@ -6,7 +6,7 @@ export default function HeroCanva() {
       <section class=" bg-gray-900">
         <div class="grid max-w-screen-xl px-8 py-8 md:p-16 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7 order-2 lg:order-2">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
+            <h1 class="max-w-2xl mb-4 text-4xl text-center lg:text-left font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
               O melhor e maior Pack de Canva{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-violet-600">
                 disponível para você
