@@ -4,7 +4,7 @@ import BtnRolar from "./btnRolar";
 export default function Heroi() {
   return (
     <>
-      <section class="w-full h-auto lg:bg-[url('/bg6.png')]  bg-cover bg-left">
+      <section className="w-full h-auto lg:bg-[url('/bg6.png')]  bg-cover bg-left">
         <div className="lg:hidden">
           <Image src="/bg0.png" alt="bgSmall" width="500" height="500" />
         </div>

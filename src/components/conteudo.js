@@ -91,7 +91,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open1 ? "block" : "none" }}
-                  className=" text-gray-500 text-gray-400"
+                  className="  text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}
@@ -168,7 +168,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open2 ? "block" : "none" }}
-                  className=" text-gray-500 text-gray-400"
+                  className="  text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}
@@ -250,7 +250,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open3 ? "block" : "none" }}
-                  className=" text-gray-500 text-gray-400"
+                  className="  text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}
@@ -326,7 +326,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open4 ? "block" : "none" }}
-                  className=" text-gray-500 text-gray-400"
+                  className="  text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}
@@ -397,7 +397,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open5 ? "block" : "none" }}
-                  className=" text-gray-500 text-gray-400"
+                  className="  text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}
@@ -476,7 +476,7 @@ export default function Conteudo() {
 
                 <ul
                   style={{ display: open6 ? "block" : "none" }}
-                  className=" text-gray-500 text-gray-400"
+                  className="  text-gray-400"
                 >
                   <p className="font-bold mb-3">
                     Um curso completo do zero ao avançado com{" "}
